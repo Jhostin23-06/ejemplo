@@ -1,0 +1,39 @@
+body {
+    background-color: red;
+}
+
+.titulo {
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.navegacion {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.enlaces {
+    list-style: none;
+    color: black;
+    padding: 5px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.enlaces:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.imagen {
+    width: 100px;
+    height: 100px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
